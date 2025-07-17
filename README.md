@@ -13,6 +13,21 @@ pnpm dev
 # or
 bun dev
 ```
+## Requirement
+
+You need to have .env file before you can start 
+.env.local
+.env.development
+.env.production 
+
+Each Environment must contain:
+
+API_VERSION=
+NODE_ENV=
+PORT=
+DATABASE_URL=
+NEXT_PUBLIC_API_BASE_URL=
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
